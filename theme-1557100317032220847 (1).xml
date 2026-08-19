@@ -1,0 +1,2329 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateVersion='1.0.0' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+
+<head>
+  <meta content='width=device-width, initial-scale=1' name='viewport'/>
+  <meta content='SHREE SONAGARA AUTO PARTS - 2 Wheeler Bike Spare Parts' name='description'/>
+  <meta content='bike spare parts, auto parts, Hero, Honda, TVS, Bajaj, Surat' name='keywords'/>
+
+  <title><data:blog.pageTitle/></title>
+
+  <b:skin><![CDATA[
+
+*{
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  margin:0;
+  padding:0;
+  background:#f5f6f8;
+  color:#151515;
+  font-family:Arial,Helvetica,sans-serif;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+img{
+  max-width:100%;
+}
+
+.container{
+  width:94%;
+  max-width:1250px;
+  margin:auto;
+}
+
+/* TOP BAR */
+
+.topbar{
+  background:#111827;
+  color:#fff;
+  font-size:13px;
+}
+
+.topbar-inner{
+  min-height:38px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.topbar span{
+  opacity:.9;
+}
+
+/* HEADER */
+
+.header{
+  background:#fff;
+  border-bottom:1px solid #e5e7eb;
+  position:sticky;
+  top:0;
+  z-index:999;
+}
+
+.header-inner{
+  min-height:78px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+}
+
+.logo{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  min-width:240px;
+}
+
+.logo-icon{
+  width:48px;
+  height:48px;
+  border-radius:10px;
+  background:#e30613;
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:25px;
+  font-weight:bold;
+}
+
+.logo-text strong{
+  display:block;
+  font-size:18px;
+  line-height:20px;
+  color:#111827;
+}
+
+.logo-text small{
+  color:#e30613;
+  font-size:11px;
+  font-weight:bold;
+}
+
+.search-box{
+  flex:1;
+  max-width:560px;
+  height:46px;
+  border:1px solid #d8dce2;
+  border-radius:7px;
+  display:flex;
+  background:#fff;
+  overflow:hidden;
+}
+
+.search-box input{
+  flex:1;
+  border:0;
+  outline:0;
+  padding:0 16px;
+  font-size:14px;
+}
+
+.search-box button{
+  width:58px;
+  border:0;
+  background:#e30613;
+  color:#fff;
+  cursor:pointer;
+  font-size:18px;
+}
+
+.header-actions{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.action-btn{
+  border:1px solid #ddd;
+  background:#fff;
+  padding:11px 14px;
+  border-radius:7px;
+  font-weight:bold;
+  font-size:13px;
+}
+
+.whatsapp-btn{
+  background:#168c42;
+  color:#fff;
+  border:0;
+}
+
+/* NAV */
+
+.nav{
+  background:#fff;
+  border-bottom:1px solid #e5e7eb;
+}
+
+.nav-inner{
+  display:flex;
+  align-items:center;
+  gap:30px;
+  min-height:48px;
+}
+
+.nav a{
+  font-size:14px;
+  font-weight:bold;
+}
+
+.nav a:hover{
+  color:#e30613;
+}
+
+/* HERO */
+
+.hero{
+  padding:25px 0;
+}
+
+.hero-box{
+  min-height:360px;
+  border-radius:14px;
+  overflow:hidden;
+  position:relative;
+  background:
+    linear-gradient(90deg,rgba(5,10,20,.96),rgba(5,10,20,.65),rgba(5,10,20,.15)),
+    url('https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1400&q=80');
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  align-items:center;
+}
+
+.hero-content{
+  width:60%;
+  padding:45px;
+  color:#fff;
+}
+
+.hero-content .tag{
+  display:inline-block;
+  background:#e30613;
+  padding:8px 13px;
+  border-radius:4px;
+  font-size:12px;
+  font-weight:bold;
+  margin-bottom:14px;
+}
+
+.hero-content h1{
+  font-size:42px;
+  line-height:1.08;
+  margin:0 0 15px;
+}
+
+.hero-content p{
+  font-size:16px;
+  line-height:1.6;
+  color:#e5e7eb;
+}
+
+.hero-buttons{
+  display:flex;
+  gap:12px;
+  margin-top:22px;
+}
+
+.red-btn{
+  background:#e30613;
+  color:#fff;
+  padding:13px 22px;
+  border-radius:6px;
+  font-weight:bold;
+  display:inline-block;
+}
+
+.white-btn{
+  background:#fff;
+  color:#111827;
+  padding:13px 22px;
+  border-radius:6px;
+  font-weight:bold;
+  display:inline-block;
+}
+
+/* BRANDS */
+
+.section{
+  padding:18px 0 30px;
+}
+
+.section-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:17px;
+}
+
+.section-head h2{
+  margin:0;
+  font-size:24px;
+}
+
+.section-head a{
+  color:#e30613;
+  font-size:13px;
+  font-weight:bold;
+}
+
+.brand-grid{
+  display:grid;
+  grid-template-columns:repeat(6,1fr);
+  gap:15px;
+}
+
+.brand-card{
+  background:#fff;
+  border:1px solid #e7e9ed;
+  border-radius:10px;
+  padding:2px 10px;
+  text-align:center;
+  transition:.2s;
+}
+
+.brand-card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+.brand-logo{
+  height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:24px;
+  font-weight:900;
+  margin-bottom:10px;
+}
+
+.brand-card span{
+  font-size:13px;
+  display:none; 
+  color:#666;
+}
+
+/* CATEGORY PAGE */
+.category-page-head{
+  display:none;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  margin-bottom:18px;
+}
+.category-page-head h1{
+  margin:0;
+  font-size:24px;
+  font-weight:900;
+}
+.category-back{
+  display:inline-block;
+  text-decoration:none;
+  background:#111827;
+  color:#fff;
+  padding:10px 14px;
+  border-radius:8px;
+  font-weight:700;
+  font-size:13px;
+}
+body.category-mode .hero,
+body.category-mode #brands,
+body.category-mode #categories{
+  display:none !important;
+}
+body.category-mode .category-page-head{
+  display:flex;
+}
+
+/* CATEGORIES */
+
+.category-grid{
+  display:grid;
+  grid-template-columns:repeat(6,1fr);
+  gap:12px;
+}
+
+.category{
+  background:#fff;
+  border:1px solid #e5e7eb;
+  border-radius:9px;
+  padding:18px 8px;
+  text-align:center;
+  font-weight:bold;
+  font-size:13px;
+}
+
+.category-icon{
+  font-size:28px;
+  margin-bottom:8px;
+}
+
+/* FEATURES */
+
+.features{
+  background:#111827;
+  color:#fff;
+  padding:25px 0;
+  margin-top:15px;
+}
+
+.feature-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:15px;
+}
+
+.feature{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.feature-icon{
+  width:45px;
+  height:45px;
+  border-radius:50%;
+  background:#e30613;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:20px;
+}
+
+.feature strong{
+  display:block;
+  font-size:14px;
+}
+
+.feature small{
+  color:#aaa;
+}
+
+/* FOOTER */
+
+.footer{
+  background:#0b0f16;
+  color:#fff;
+  padding:40px 0 20px;
+}
+
+.footer-grid{
+  display:grid;
+  grid-template-columns:2fr 1fr 1fr 1.5fr;
+  gap:35px;
+}
+
+.footer h3{
+  font-size:17px;
+  margin-top:0;
+}
+
+.footer p,
+.footer a{
+  color:#aeb4bf;
+  font-size:13px;
+  line-height:1.8;
+}
+
+.footer a:hover{
+  color:#fff;
+}
+
+.copyright{
+  border-top:1px solid #252b35;
+  margin-top:30px;
+  padding-top:18px;
+  text-align:center;
+  color:#777;
+  font-size:12px;
+}
+
+/* BLOGGER */
+
+#main-wrapper{
+  width:100%;
+}
+
+.blog-posts{
+  display:none;
+}
+
+#sidebar-wrapper{
+  display:none;
+}
+
+/* MOBILE */
+
+.mobile-menu{
+  display:none;
+}
+
+@media(max-width:900px){
+
+  .header-inner{
+    flex-wrap:wrap;
+    padding:12px 0;
+  }
+
+  .logo{
+    min-width:auto;
+  }
+
+  .search-box{
+    order:3;
+    flex-basis:100%;
+    max-width:none;
+  }
+
+  .nav-inner{
+    overflow-x:auto;
+    white-space:nowrap;
+  }
+
+  .hero-content{
+    width:85%;
+    padding:30px;
+  }
+
+  .hero-content h1{
+    font-size:34px;
+  }
+
+  .product-grid{
+    grid-template-columns:repeat(3,1fr);
+  }
+
+  .category-grid{
+    grid-template-columns:repeat(3,1fr);
+  }
+
+  .feature-grid{
+    grid-template-columns:repeat(3,1fr);
+  }
+
+  .footer-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media(max-width:600px){
+
+  .topbar-inner{
+    justify-content:center;
+  }
+
+  .topbar span:last-child{
+    display:none;
+  }
+
+  .header-actions .action-btn{
+    display:none;
+  }
+
+  .hero-box{
+    min-height:430px;
+  }
+
+  .hero-content{
+    width:100%;
+    padding:25px;
+  }
+
+  .hero-content h1{
+    font-size:30px;
+  }
+
+  .hero-content p{
+    font-size:14px;
+  }
+
+  .brand-grid{
+    grid-template-columns:repeat(3,1fr);
+  }
+
+  .category-grid{
+    grid-template-columns:repeat(3,1fr);
+  }
+
+  .product-grid{
+    grid-template-columns:repeat(3,1fr);
+    gap:10px;
+  }
+
+  .product-img{
+    height:140px;
+  }
+
+  .product-info{
+    padding:10px;
+  }
+
+  .product-name{
+    font-size:13px;
+  }
+
+  .product-price{
+    font-size:15px;
+  }
+
+  .feature-grid{
+    grid-template-columns:1fr;
+  }
+
+  .footer-grid{
+    grid-template-columns:1fr;
+  }
+
+  .section-head h2{
+    font-size:20px;
+  }
+
+  .hero-buttons{
+    flex-direction:column;
+  }
+
+  .red-btn,
+  .white-btn{
+    text-align:center;
+  }
+}
+.bike-filter{
+  display:flex;
+  gap:10px;
+  overflow-x:auto;
+  margin-bottom:20px;
+  padding-bottom:5px;
+}
+
+.filter-btn{
+  border:1px solid #ddd;
+  background:#fff;
+  color:#222;
+  padding:10px 22px;
+  border-radius:6px;
+  font-weight:bold;
+  cursor:pointer;
+  white-space:nowrap;
+}
+
+.filter-btn:hover,
+.filter-btn.active{
+  background:#e30613;
+  color:#fff;
+  border-color:#e30613;
+}
+
+.product-model{
+  color:#777;
+  font-size:11px;
+  margin:4px 0;
+}
+
+.product-img{
+  background:#fff;
+}
+
+.product-img img{
+  transition:.3s;
+}
+
+.product:hover .product-img img{
+  transform:scale(1.05);
+}
+
+.header-icons{
+  display:flex;
+  gap:15px;
+  align-items:center;
+}
+.header-icons a{
+  font-size:25px;
+  color:#111;
+  text-decoration:none;
+}
+
+.brand-card{
+  padding:8px !important;
+  min-height:75px !important;
+  height:75px !important;
+}
+
+.brand-card .brand-logo{
+  height:100% !important;
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.brand-card .brand-logo img{
+  max-height:48px !important;
+  width:100% !important;
+  height:100% !important;
+  max-width:100% !important;
+  object-fit:contain !important;
+}
+
+.product-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:16px;
+}
+
+.product{
+  background:#fff;
+  border:1px solid #eee;
+  border-radius:10px;
+  overflow:hidden;
+  box-shadow:0 2px 8px rgba(0,0,0,0.06);
+}
+
+.add-cart-btn{
+  width:100%;
+  padding:11px;
+  margin-top:8px;
+  border:1px solid #e30613;
+  border-radius:6px;
+  background:#fff;
+  color:#e30613;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+.add-cart-btn:hover{
+  background:#e30613;
+  color:#fff;
+}
+
+.product-img{
+  width:100%;
+  aspect-ratio:1/1;
+  overflow:hidden;
+  background:#f5f5f5;
+}
+
+.product-img img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+
+.product-info{
+  padding:12px;
+}
+
+.product-brand{
+  font-size:12px;
+  font-weight:700;
+  color:#e60012;
+  margin-bottom:5px;
+}
+
+.product-name{
+  font-size:15px;
+  font-weight:600;
+  line-height:1.3;
+  min-height:40px;
+}
+
+.product-price{
+  font-size:13px;
+  margin:8px 0;
+}
+
+.order-btn{
+  display:block;
+  width:100%;
+  box-sizing:border-box;
+  background:#25D366;
+  color:#fff !important;
+  text-align:center;
+  padding:9px 6px;
+  border-radius:6px;
+  text-decoration:none;
+  font-size:13px;
+  font-weight:600;
+}
+
+@media (max-width:700px){
+  .product-grid{
+    grid-template-columns:repeat(3,1fr);
+    gap:10px;
+  }
+
+  .product-info{
+    padding:9px;
+  }
+
+  .product-name{
+    font-size:13px;
+    min-height:34px;
+  }
+
+  .product-price{
+    font-size:12px;
+  }
+
+  .order-btn{
+    font-size:12px;
+    padding:8px 4px;
+  }
+}
+
+@media (max-width:380px){
+  .product-grid{
+    gap:8px;
+  }
+
+  .product-name{
+    font-size:12px;
+  }
+}
+
+.brand-grid .brand-card{
+  width:100% !important;
+  height:100% !important;
+  min-height:70px !important;
+  padding:5px !important;
+  margin:0 auto !important;
+  box-sizing:border-box !important;
+}
+
+.brand-grid .brand-card .brand-logo{
+  height:100% !important;
+  width:100% !important;
+}
+
+.brand-grid .brand-card .brand-logo img{
+  width:auto !important;
+  height:42px !important;
+  max-width:80px !important;
+  max-height:42px !important;
+  object-fit:contain !important;
+}
+
+.brand-grid .brand-card span{
+  font-size:10px !important;
+  line-height:12px !important;
+}
+
+  ]]></b:skin>
+  <style>
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px 0;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #a0a0a0;
+  font-size: 11px;
+  font-family: sans-serif;
+}
+
+.nav-icon {
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+.nav-item:hover, .nav-item:active {
+  color: #ffffff;
+}
+  </style>
+ <style>
+/* Header Navigation Menu Hide */
+.nav-menu, .header-nav, ul.nav-links {
+  display: none !important;
+}
+  </style>
+  
+</head>
+<style>
+/* 1. ब&#2377;क&#2381;स क&#2375; अ&#2306;दर क&#2368; ख&#2366;ल&#2368; जगह खत&#2381;म करन&#2375; क&#2375; ल&#2367;ए */
+.brand-grid div,
+.brand-grid a,
+[class*=&quot;brand&quot;] div,
+[class*=&quot;brand&quot;] a {
+  padding: 0!important;
+  margin:0!important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* 2. इम&#2375;ज/ल&#2379;ग&#2379; क&#2379; प&#2370;र&#2366; ब&#2377;क&#2381;स क&#2368; स&#2366;इज&#2364; क&#2366; करन&#2375; क&#2375; ल&#2367;ए */
+.brand-grid img,
+[class*=&quot;brand&quot;] img,
+img[alt*=&quot;Hero&quot;],
+img[alt*=&quot;Honda&quot;],
+img[alt*=&quot;Bajaj&quot;],
+img[alt*=&quot;TVS&quot;] {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 100% !important;
+  max-height: 100% !important;
+  object-fit: fill !important; /* प&#2370;र&#2375; ब&#2377;क&#2381;स म&#2375;&#2306; फ&#2379;ट&#2379; ख&#2368;&#2306;चकर फ&#2367;ट कर द&#2375;ग&#2366; */
+  border-radius: 8px !important;
+}
+  </style>
+  
+<body>
+
+<!-- TOP BAR -->
+<div class='topbar'>
+  <div class='container topbar-inner'>
+    <span>Welcome to SHREE SONAGARA AUTO PARTS</span>
+    <span>Katargam, Surat | 2 Wheeler Spare Parts</span>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class='header'>
+  <div class='container header-inner'>
+
+    <a class='logo' href='/'>
+      <div class='logo-icon'>S</div>
+      <div class='logo-text'>
+        <strong>SHREE SONAGARA</strong>
+        <small>AUTO PARTS</small>
+      </div>
+    </a>
+    <div class='header-icons'>
+      <a href='#' onclick='toggleSearch(); return false;' title='Search'>🔍</a>
+      <a class='cart-link' href='#' onclick='openCart(); return false;' title='Cart'>
+        🛒 <span id='cartCount'>0</span>
+      </a>
+    </div>
+
+    <div class='header-actions'>
+      <a class='action-btn' href='tel:+918460650603'>&#9742; Call</a>
+      <a class='action-btn whatsapp-btn' href='https://wa.me/918460650603' target='_blank'>WhatsApp</a>
+    </div>
+
+  </div>
+  <div id='searchPanel' style='display:none; padding:10px 0;'>
+    <div class='container'>
+      <input id='siteSearch' onkeyup='searchProducts()' placeholder='Search spare parts...' style='width:100%; padding:12px; border:1px solid #ddd; border-radius:6px; font-size:14px;' type='text'/>
+    </div>
+  </div>
+</header>
+
+<!-- NAVIGATION -->
+<nav class='nav'>
+  <div class='container nav-inner'>
+    <a href='/'>HOME</a>
+    <a href='#brands'>BIKE BRANDS</a>
+    <a href='#categories'>CATEGORIES</a>
+    <a href='#sarvice'>SARVICE</a>
+    <a href='#products'>SPARE PARTS</a>
+    <a href='#contact'>CONTACT</a>
+  </div>
+</nav>
+
+<main id='main-wrapper'>
+
+<!-- HERO -->
+<section class='hero'>
+  <div class='container'>
+    <div class='hero-box'>
+      <div class='hero-content'>
+
+        <span class='tag'>2 WHEELER AUTO PARTS</span>
+
+        <h1>Quality Bike Spare Parts At Best Price</h1>
+
+        <p>
+          Hero, Honda, TVS, Bajaj aur other 2-wheeler
+          spare parts ke liye SHREE SONAGARA AUTO PARTS.
+        </p>
+
+        <div class='hero-buttons'>
+          <a class='red-btn' href='#products'>Shop Spare Parts</a>
+
+          <a class='white-btn' href='https://wa.me/918460650603?text=Hello%20SHREE%20SONAGARA%20AUTO%20PARTS' target='_blank'>
+             Order on WhatsApp
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BRANDS -->
+<section class='section' id='brands'>
+  <div class='container'>
+
+    <div class='section-head'>
+      <h2>Shop By Bike Brand</h2>
+      <a href='#products'>View All</a>
+    </div>
+
+    <div class='brand-grid'>
+
+      <a class='brand-card' href='#products'>
+        <div class='brand-logo'>
+          <img alt='Hero' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5YH_XaO0Y0tCKTPiUbwYiAxcLYzD-s4C2yem1_ugGeS7Jk_RDqr4Jsf8RAbBRGgSOQk4CJoznoBvGTIRmpY_iqCwUqnpujDZRKkfS8zeP4fl7Hn0IPIwAkzBbcEyUl5_jN2NrZ0D311VMj-06D7-vgu5_V9vhaZrdbjsLltmVrV-IA65nBzR6UlUruNHI/s320/1001166434.png'/>
+        </div>
+        <span>Hero Spare Parts</span>
+      </a>
+
+      <a class='brand-card' href='#products'>
+        <div class='brand-logo'>
+          <img alt='Honda' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQBL3OeVLDn5SbsKMFicgZYsKGLuCX8vePdJgPYw904rGAwfxCtRZ606NixWGCrSMtXRC6P1oY3P2zd7ajL1mQ7MovEkb8vy34EbTTJvVAhsR9NAjul7l4sWv1IhCsKS9X4nepJMD5w72iuRua_75UqmQXPjd30Il9P2nngaAJrMpQ_-LTxZpJLGaDDrCR/s320/1001166433.png'/>
+        </div>
+        <span>Honda Spare Parts</span>
+      </a>
+
+      <a class='brand-card' href='#products'>
+        <div class='brand-logo'>
+          <img alt='TVS' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYsmhT78uZ4Ila6p0xCq-kOlMHTIQIgHqP-_gKt4uYgBwVKsB2-rgptRkafJqsko8IwxxiEmpbKS2ud4U6mws-_WEzUfuut7u9sMhpQGPpaYw-I0lvDqTHGqcFCZb8G8s62fIaFLzG7YeDGqrplCy3-Mdmic4GxsWG_8dhehLn2UgSi8BNddWXq8Wo9Dmj/s320/1001166436.png'/>
+        </div>
+        <span>TVS Spare Parts</span>
+      </a>
+
+      <a class='brand-card' href='#products'>
+        <div class='brand-logo'>
+          <img alt='Bajaj' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3MxQL_23AtVcquGCkJ830Hy05j_UHlZXsK4xEQApnsX_kEgX5pQOHzHPqE-Er2arG-_UU_r1IMvXaX8OXaW5781NrGXYSeqFbUov4sSHMLSdUNftbzDHi59w_16gkpKpfSDxG-bZLQf4OSrKjaFd2mbKqNBs9v6eyl-M1w9lY5cb_ag1KVLjyGhPGfuXS/s320/1001166437.png'/>
+        </div>
+        <span>Bajaj Spare Parts</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class='section' id='categories'>
+  <div class='container'>
+    <div class='section-head'>
+      <h2>Spare Parts Categories</h2>
+    </div>
+    <div class='category-grid'>
+      <a class='category' href='?cat=brake'>
+        <span class='category-icon'>&#9881;&#65039;</span>brake parts 
+      </a>     
+  <a class='category' href='?cat=clutch'>
+    <span class='category-icon'>🔧</span>Clutch Parts
+  </a>
+  <a class='category' href='?cat=engine'>
+    <span class='category-icon'>&#9881;&#65039;</span>Engine Parts
+  </a>
+  <a class='category' href='?cat=cable'>
+    <span class='category-icon'>🔌</span>Cable
+  </a>
+  <a class='category' href='?cat=electrical'>
+    <span class='category-icon'>💡</span>Electrical
+  </a>
+  <a class='category' href='?cat=body'>
+    <span class='category-icon'>🏍&#65039;</span>Body Parts
+  </a>
+      </div>            
+    </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class='section' id='products'>
+  <div class='container'>
+    <div class='category-page-head' id='categoryPageHead'>
+      <h1 id='categoryPageTitle'>Category</h1>
+      <a class='category-back' href='./'>&#8592; Back to Home</a>
+    </div>
+
+    <div class='section-head'>
+      <h2>Popular Spare Parts</h2>
+      <a href='#products' onclick='document.querySelectorAll(&quot;.product&quot;).forEach(function(p){p.style.display=&quot;&quot;;}); return false;'>View All Products</a>
+    </div>
+
+    <div class='model-filter' style='margin:15px 0;'>
+      <select id='modelFilter' onchange='filterModel(this.value)'>
+        <option value='all'>All Models</option>
+        <option value='Splendor'>Splendor</option>
+        <option value='Activa'>Activa</option>
+        <option value='Jupiter'>Jupiter</option>
+        <option value='Pulsar'>Pulsar</option>
+      </select>
+    </div>
+
+    <div class='product-grid' id='productGrid'>
+
+      <div class='product' data-brand='HERO' data-category='brake' data-model='Splendor'>
+        <div class='product-img'>
+          <img alt='Hero Splendor Brake Shoe' src='https://placehold.co/500x400/png?text=Hero+Brake+Shoe'/>
+        </div>
+        <div class='product-info'>
+          <div class='product-brand'>HERO</div>
+          <div class='product-name'>Hero Splendor Brake Shoe</div>
+          <div class='product-price'>&#8377; Price On Request</div>
+          <button class='add-cart-btn' onclick='addToCart(&quot;Hero Splendor Brake Shoe&quot;, &quot;HERO&quot;, &quot;Splendor&quot;)'>Add to Cart</button>
+          <a class='order-btn' href='https://wa.me/918460650603?text=I%20want%20Hero%20Splendor%20Brake%20Shoe' target='_blank'>WhatsApp Order</a>
+        </div>
+      </div>
+
+      <div class='product' data-brand='HONDA' data-category='clutch' data-model='Activa'>
+        <div class='product-img'>
+          <img alt='Honda Activa Clutch Plate' src='https://placehold.co/500x400/png?text=Honda+Clutch+Plate'/>
+        </div>
+        <div class='product-info'>
+          <div class='product-brand'>HONDA</div>
+          <div class='product-name'>Honda Activa Clutch Plate</div>
+          <div class='product-price'>&#8377; Price On Request</div>
+          <button class='add-cart-btn' onclick='addToCart(&quot;Honda Activa Clutch Plate&quot;, &quot;HONDA&quot;, &quot;Activa&quot;)'>Add to Cart</button>
+          <a class='order-btn' href='https://wa.me/918460650603?text=I%20want%20Honda%20Activa%20Clutch%20Plate' target='_blank'>WhatsApp Order</a>
+        </div>
+      </div>
+
+      <div class='product' data-brand='TVS' data-category='cable' data-model='Jupiter'>
+        <div class='product-img'>
+          
+                                                          <img alt='TVS Jupiter Speedometer Cable' src='https://placehold.co/500x400/png?text=TVS+Jupiter+Cable'/>
+        </div>
+        <div class='product-info'>
+          <div class='product-brand'>TVS</div>
+          <div class='product-name'>TVS Jupiter Speedometer Cable</div>
+          <div class='product-price'>&#8377; Price On Request</div>
+          <button class='add-cart-btn' onclick='addToCart(&quot;TVS Jupiter Speedometer Cable&quot;, &quot;TVS&quot;, &quot;Jupiter&quot;)'>Add to Cart</button>
+          <a class='order-btn' href='https://wa.me/918460650603?text=I%20want%20TVS%20Jupiter%20Speedometer%20Cable' target='_blank'>WhatsApp Order</a>
+        </div>
+      </div>
+
+      <div class='product' data-brand='BAJAJ' data-category='body' data-model='Pulsar'>
+        <div class='product-img'>
+          <img alt='Bajaj Pulsar Spare Part' src='https://placehold.co/500x400/png?text=Bajaj+Pulsar+Part'/>
+        </div>
+        <div class='product-info'>
+          <div class='product-brand'>BAJAJ</div>
+          <div class='product-name'>Bajaj Pulsar Spare Part</div>
+          <div class='product-price'>&#8377; Price On Request</div>
+          <button class='add-cart-btn' onclick='addToCart(&quot;Bajaj Pulsar Spare Part&quot;, &quot;BAJAJ&quot;, &quot;Pulsar&quot;)'>Add to Cart</button>
+          <a class='order-btn' href='https://wa.me/918460650603?text=I%20want%20Bajaj%20Pulsar%20Spare%20Part' target='_blank'>WhatsApp Order</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class='features'>
+  <div class='container'>
+
+    <div class='feature-grid'>
+
+      <div class='feature'>
+        <div class='feature-icon'>&#10003;</div>
+        <div>
+          <strong>Quality Parts</strong>
+          <small>Trusted spare parts</small>
+        </div>
+      </div>
+
+      <div class='feature'>
+        <div class='feature-icon'>&#8377;</div>
+        <div>
+          <strong>Best Price</strong>
+          <small>Competitive pricing</small>
+        </div>
+      </div>
+
+      <div class='feature'>
+        <div class='feature-icon'>&#9742;</div>
+        <div>
+          <strong>Easy Ordering</strong>
+          <small>Call or WhatsApp</small>
+        </div>
+      </div>
+
+      <div class='feature'>
+        <div class='feature-icon'>🏍</div>
+        <div>
+          <strong>2 Wheeler Parts</strong>
+          <small>Multiple brands available</small>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- BLOGGER SECTION -->
+<b:section class='main' id='main' maxwidgets='5' showaddelement='yes'>
+  <b:widget id='PageList1' locked='false' title='Brake pads' type='PageList' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='pageListJson'>{}</b:widget-setting>
+      <b:widget-setting name='homeTitle'>Home</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+      <b:include name='widget-title'/>
+      <b:include name='content'/>
+    </b:includable>
+    <b:includable id='content'>
+      <div class='widget-content'>
+        <b:include name='pageList'/>
+      </div>
+    </b:includable>
+    <b:includable id='overflowButton'>
+      <b:include name='verticalMoreIcon'/>
+    </b:includable>
+    <b:includable id='overflowablePageList'>
+      <div class='overflowable-container'>
+        <div class='overflowable-contents'>
+          <div class='container'>
+            <b:with value='true' var='overflow'>
+              <b:with value='&quot;tabs&quot;' var='pageListClass'>
+                <b:include name='pageList'/>
+              </b:with>
+            </b:with>
+          </div>
+        </div>
+        <div class='overflow-button hidden'>
+          <b:include name='overflowButton'/>
+        </div>
+      </div>
+    </b:includable>
+    <b:includable id='pageLink'>
+      <li>
+        <b:class cond='data:overflow' name='overflowable-item'/>
+        <b:class cond='data:link.isCurrentPage' name='selected'/>
+        <a expr:href='data:link.href'><data:link.title/></a>
+      </li>
+    </b:includable>
+    <b:includable id='pageList'>
+      <ul>
+        <b:class cond='data:pageListClass' expr:name='data:pageListClass'/>
+        <b:loop values='data:links' var='link'>
+          <b:include name='pageLink'/>
+        </b:loop>
+      </ul>
+    </b:includable>
+  </b:widget>
+  <b:widget id='Image1' locked='false' title='Home' type='Image' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEjtJvx0796dKCAkvMPcffcRIDrr8mGN1rjlPqctIFT9CnjoJcX6koecFtz03_3h4laljFQQ4IVX2gImcMIjBS5UKWtekt-YKmfmixW1pAQb07pMwtieLfGzSpgx8GSoFBA7_Dkv29dZN0-Bx5udxojuAjPa-ElRDDZ7SMuAug46uP4dlh6RbOrkkgdn0wKy=s1157</b:widget-setting>
+      <b:widget-setting name='displayHeight'>1157</b:widget-setting>
+      <b:widget-setting name='sectionWidth'>971</b:widget-setting>
+      <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
+      <b:widget-setting name='displayWidth'>1019</b:widget-setting>
+      <b:widget-setting name='link'/>
+      <b:widget-setting name='caption'>Hero</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+      <b:include name='widget-title'/>
+      <b:include name='content'/>
+    </b:includable>
+    <b:includable id='content'>
+      <div class='widget-content'>
+        <b:tag cond='data:link' expr:href='data:link' name='a'>
+          <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'>
+            <b:attr cond='data:sourceSet' expr:value='data:sourceSet' name='srcset'/>
+          </img>
+        </b:tag>
+        <br/>
+        <b:if cond='data:caption'>
+          <span class='caption'><data:caption/></span>
+        </b:if>
+      </div>
+    </b:includable>
+  </b:widget>
+  <b:widget id='LinkList1' locked='false' title='Quick link' type='LinkList' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='sorting'>NONE</b:widget-setting>
+      <b:widget-setting name='text-0'>HOME </b:widget-setting>
+      <b:widget-setting name='link-0'>https:// -/</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+      <b:include name='widget-title'/>
+      <b:include name='content'/>
+    </b:includable>
+    <b:includable id='content'>
+      <div class='widget-content'>
+        <ul>
+          <b:loop values='data:links' var='link'>
+            <li><a expr:href='data:link.target'><data:link.name/></a></li>
+          </b:loop>
+        </ul>
+      </div>
+    </b:includable>
+  </b:widget>
+  <b:widget id='Text1' locked='false' title='ABOUT US' type='Text' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='content'>Shree Sonagara Auto Parts is a trusted destination for quality 2-wheeler spare parts in Katargam, Surat. We offer spare parts for popular bike brands like Hero, Honda, TVS and Bajaj at competitive prices. Our goal is to provide quality parts, best prices and easy ordering to every customer. You can contact us by phone or WhatsApp for product availability and orders.</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+      <b:include name='widget-title'/>
+      <div class='widget-content'>
+        <data:content/>
+      </div>
+    </b:includable>
+  </b:widget>
+</b:section>
+
+<b:section class='page-content-section' id='pageContent' maxwidgets='1' showaddelement='no'>
+  <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='showDateHeader'>false</b:widget-setting>
+      <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
+      <b:widget-setting name='showShareButtons'>false</b:widget-setting>
+      <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+      <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
+      <b:widget-setting name='showAuthor'>true</b:widget-setting>
+      <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
+      <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+      <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+      <b:widget-setting name='timestampLabel'/>
+      <b:widget-setting name='reactionsLabel'/>
+      <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+      <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+      <b:widget-setting name='showLabels'>true</b:widget-setting>
+      <b:widget-setting name='showLocation'>true</b:widget-setting>
+      <b:widget-setting name='postLabelsLabel'/>
+      <b:widget-setting name='showTimestamp'>true</b:widget-setting>
+      <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+      <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+      <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+      <b:widget-setting name='showInlineAds'>false</b:widget-setting>
+      <b:widget-setting name='showReactions'>false</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+      <b:loop values='data:posts' var='post'>
+        <div class='page-content'>
+          <data:post.body/>
+        </div>
+      </b:loop>
+    </b:includable>
+    <b:includable id='aboutPostAuthor'>
+  <div class='author-name'>
+    <a class='g-profile' expr:href='data:post.author.profileUrl' rel='author' title='author profile'>
+      <span>
+        <data:post.author.name/>
+      </span>
+    </a>
+  </div>
+  <div>
+    <span class='author-desc'>
+      <data:post.author.aboutMe/>
+    </span>
+  </div>
+</b:includable>
+    <b:includable id='addComments'>
+  <a expr:href='data:post.commentsUrl' expr:onclick='data:post.commentsUrlOnclick'>
+    <b:message name='messages.postAComment'/>
+  </a>
+</b:includable>
+    <b:includable id='blogThisShare'>
+  <b:with value='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=270,width=475\&quot;); return false;&quot;' var='onclick'>
+    <b:include name='platformShare'/>
+  </b:with>
+</b:includable>
+    <b:includable id='bylineByName' var='byline'>
+  <b:switch var='data:byline.name'>
+  <b:case value='share'/>
+    <b:include cond='data:post.shareUrl' name='postShareButtons'/>
+  <b:case value='comments'/>
+    <b:include cond='data:post.allowComments' name='postCommentsLink'/>
+  <b:case value='location'/>
+    <b:include cond='data:post.location' name='postLocation'/>
+  <b:case value='timestamp'/>
+    <b:include cond='not data:view.isPage' name='postTimestamp'/>
+  <b:case value='author'/>
+    <b:include name='postAuthor'/>
+  <b:case value='labels'/>
+    <b:include cond='data:post.labels' name='postLabels'/>
+  <b:case value='icons'/>
+    <b:include cond='data:post.emailPostUrl' name='emailPostIcon'/>
+  </b:switch>
+</b:includable>
+    <b:includable id='bylineRegion' var='regionItems'>
+  <b:loop values='data:regionItems' var='byline'>
+    <b:include data='byline' name='bylineByName'/>
+  </b:loop>
+</b:includable>
+    <b:includable id='commentAuthorAvatar'>
+  <div class='avatar-image-container'>
+    <img class='author-avatar' expr:src='data:comment.authorAvatarSrc' height='35' width='35'/>
+  </div>
+</b:includable>
+    <b:includable id='commentDeleteIcon' var='comment'>
+  <span expr:class='&quot;item-control &quot; + data:comment.adminClass'>
+    <b:if cond='data:showCmtPopup'>
+      <div class='goog-toggle-button'>
+        <div class='goog-inline-block comment-action-icon'/>
+      </div>
+    <b:else/>
+      <a class='comment-delete' expr:href='data:comment.deleteUrl' expr:title='data:messages.deleteComment'>
+        <img src='https://resources.blogblog.com/img/icon_delete13.gif'/>
+      </a>
+    </b:if>
+  </span>
+</b:includable>
+    <b:includable id='commentForm' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <h4 id='comment-post-message'><data:messages.postAComment/></h4>
+    <b:if cond='data:this.messages.blogComment != &quot;&quot;'>
+      <p><data:this.messages.blogComment/></p>
+    </b:if>
+    <b:include data='post' name='commentFormIframeSrc'/>
+    <iframe allowtransparency='allowtransparency' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight ?: &quot;90px&quot;' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+    </script>
+  </div>
+</b:includable>
+    <b:includable id='commentFormIframeSrc' var='post'>
+  <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+</b:includable>
+    <b:includable id='commentItem' var='comment'>
+  <div class='comment' expr:id='&quot;c&quot; + data:comment.id'>
+    <b:include cond='data:blog.enabledCommentProfileImages' name='commentAuthorAvatar'/>
+
+    <div class='comment-block'>
+      <div class='comment-author'>
+        <b:if cond='data:comment.authorUrl'>
+          <b:message name='messages.authorSaidWithLink'>
+            <b:param expr:value='data:comment.author' name='authorName'/>
+            <b:param expr:value='data:comment.authorUrl' name='authorUrl'/>
+          </b:message>
+        <b:else/>
+          <b:message name='messages.authorSaid'>
+            <b:param expr:value='data:comment.author' name='authorName'/>
+          </b:message>
+        </b:if>
+      </div>
+      <div expr:class='&quot;comment-body&quot; + (data:comment.isDeleted ? &quot; deleted&quot; : &quot;&quot;)'>
+        <data:comment.body/>
+      </div>
+      <div class='comment-footer'>
+        <span class='comment-timestamp'>
+          <a expr:href='data:comment.url' title='comment permalink'>
+            <data:comment.timestamp/>
+          </a>
+          <b:include data='comment' name='commentDeleteIcon'/>
+        </span>
+      </div>
+    </div>
+  </div>
+</b:includable>
+    <b:includable id='commentList' var='comments'>
+  <div id='comments-block'>
+    <b:loop values='data:comments' var='comment'>
+      <b:include data='comment' name='commentItem'/>
+    </b:loop>
+  </div>
+</b:includable>
+    <b:includable id='commentPicker' var='post'>
+  <b:if cond='data:post.showThreadedComments'>
+    <b:include data='post' name='threadedComments'/>
+  <b:else/>
+    <b:include data='post' name='comments'/>
+  </b:if>
+</b:includable>
+    <b:includable id='comments' var='post'>
+  <section expr:class='&quot;comments&quot; + (data:post.embedCommentForm ? &quot; embed&quot; : &quot;&quot;)' expr:data-num-comments='data:post.numberOfComments' id='comments'>
+    <a name='comments'/>
+    <b:if cond='data:post.allowComments'>
+
+      <b:include name='commentsTitle'/>
+
+      <div expr:id='data:widget.instanceId + &quot;_comments-block-wrapper&quot;'>
+        <b:include cond='data:post.comments' data='post.comments' name='commentList'/>
+      </div>
+
+      <b:if cond='data:post.commentPagingRequired'>
+        <div class='paging-control-container'>
+          <b:if cond='data:post.hasOlderLinks'>
+            <a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'>
+              <data:messages.oldest/>
+            </a>
+            <a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'>
+              <data:messages.older/>
+            </a>
+          </b:if>
+
+          <span class='comment-range-text'>
+            <data:post.commentRangeText/>
+          </span>
+
+          <b:if cond='data:post.hasNewerLinks'>
+            <a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'>
+              <data:messages.newer/>
+            </a>
+            <a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'>
+              <data:messages.newest/>
+            </a>
+          </b:if>
+        </div>
+      </b:if>
+
+      <div class='footer'>
+        <b:if cond='data:post.embedCommentForm'>
+          <b:if cond='data:post.allowNewComments'>
+            <b:include data='post' name='commentForm'/>
+          <b:else/>
+            <data:post.noNewCommentsText/>
+          </b:if>
+        <b:else/>
+          <b:if cond='data:post.allowComments'>
+            <b:include data='post' name='addComments'/>
+          </b:if>
+        </b:if>
+      </div>
+    </b:if>
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='allowtransparency' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+  </section>
+</b:includable>
+    <b:includable id='commentsLink'>
+  <a class='comment-link' expr:href='data:post.commentsUrl' expr:onclick='data:post.commentsUrlOnclick'>
+    <b:if cond='data:post.numberOfComments &gt; 0'>
+      <b:message name='messages.numberOfComments'>
+        <b:param expr:value='data:post.numberOfComments' name='numComments'/>
+      </b:message>
+    <b:else/>
+      <data:messages.postAComment/>
+    </b:if>
+  </a>
+</b:includable>
+    <b:includable id='commentsLinkIframe'>
+  <!-- G+ comments, no longer available. The includable is retained for backwards-compatibility. -->
+</b:includable>
+    <b:includable id='commentsTitle'>
+  <h3 class='title'><data:messages.comments/></h3>
+</b:includable>
+    <b:includable id='defaultAdUnit'>
+  <ins class='adsbygoogle' data-ad-format='auto' expr:data-ad-client='data:adClientId ?: data:blog.adsenseClientId' expr:data-ad-host='data:blog.adsenseHostId' expr:style='data:style ?: &quot;display: block;&quot;'>
+    <b:attr cond='not data:blog.analytics4' expr:value='data:blog.analyticsAccountNumber' name='data-analytics-uacct'/>
+  </ins>
+  <script>
+   (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</b:includable>
+    <b:includable id='emailPostIcon'>
+  <span class='byline post-icons'>
+    <!-- email post links -->
+    <span class='item-action'>
+      <a expr:href='data:post.emailPostUrl' expr:title='data:messages.emailPost'>
+        <b:include data='{ iconClass: &quot;touch-icon sharing-icon&quot; }' name='emailIcon'/>
+      </a>
+    </span>
+  </span>
+</b:includable>
+    <b:includable id='facebookShare'>
+  <b:with value='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' var='onclick'>
+    <b:include name='platformShare'/>
+  </b:with>
+</b:includable>
+    <b:includable id='feedLinks'>
+  <b:if cond='!data:view.isPost'> <!-- Blog feed links -->
+    <b:if cond='data:feedLinks'>
+      <div class='blog-feeds'>
+        <b:include data='feedLinks' name='feedLinksBody'/>
+      </div>
+    </b:if>
+  <b:else/> <!--Post feed links -->
+    <div class='post-feeds'>
+      <b:loop values='data:posts' var='post'>
+        <b:if cond='data:post.allowComments and data:post.feedLinks'>
+          <b:include data='post.feedLinks' name='feedLinksBody'/>
+        </b:if>
+      </b:loop>
+    </div>
+  </b:if>
+</b:includable>
+    <b:includable id='feedLinksBody' var='links'>
+  <div class='feed-links'>
+  <data:messages.subscribeTo/>
+  <b:loop values='data:links' var='f'>
+     <a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'><data:f.name/> (<data:f.feedType/>)</a>
+  </b:loop>
+  </div>
+</b:includable>
+    <b:includable id='footerBylines'>
+  <b:if cond='data:widgets.Blog.first.footerBylines'>
+    <b:loop index='i' values='data:widgets.Blog.first.footerBylines' var='region'>
+      <b:if cond='not data:region.items.empty'>
+        <div expr:class='&quot;post-footer-line post-footer-line-&quot; + (data:i + 1)'>
+          <b:with value='&quot;footer-&quot; + (data:i + 1)' var='regionName'>
+            <b:include data='region.items' name='bylineRegion'/>
+          </b:with>
+        </div>
+      </b:if>
+    </b:loop>
+  </b:if>
+</b:includable>
+    <b:includable id='googlePlusShare'>
+</b:includable>
+    <b:includable id='headerByline'>
+  <b:if cond='data:widgets.Blog.first.headerByline'>
+    <div class='post-header'>
+      <div class='post-header-line-1'>
+        <b:with value='&quot;header-1&quot;' var='regionName'>
+          <b:include data='data:widgets.Blog.first.headerByline.items' name='bylineRegion'/>
+        </b:with>
+      </div>
+    </div>
+  </b:if>
+</b:includable>
+    <b:includable id='homePageLink'>
+  <a class='home-link' expr:href='data:blog.homepageUrl'>
+    <data:messages.home/>
+  </a>
+</b:includable>
+    <b:includable id='iframeComments' var='post'>
+  <!-- G+ comments, no longer available. The includable is retained for backwards-compatibility. -->
+</b:includable>
+    <b:includable id='inlineAd' var='post'>
+  <b:if cond='!data:view.isPreview'>
+    <b:if cond='data:this.adCode or data:this.adClientId or data:blog.adsenseClientId'>
+      <!-- Ad -->
+      <div class='inline-ad'>
+        <b:if cond='data:this.adCode != &quot;&quot;'>
+          <data:this.adCode/>
+        <b:else/>
+          <b:include cond='data:this.adClientId or data:blog.adsenseClientId' name='defaultAdUnit'/>
+        </b:if>
+      </div>
+    </b:if>
+  <b:else/>
+    <div class='inline-ad'>
+      <div class='inline-ad-placeholder'>
+        <span><b:message name='messages.adsGoHere'/></span>
+      </div>
+    </div>
+  </b:if>
+</b:includable>
+    <b:includable id='linkShare'>
+  <b:with value='&quot;window.prompt(\&quot;Copy to clipboard: Ctrl+C, Enter\&quot;, \&quot;&quot; + data:originalUrl + &quot;\&quot;); return false;&quot;' var='onclick'>
+    <b:include name='platformShare'/>
+  </b:with>
+</b:includable>
+    <b:includable id='nextPageLink'>
+  <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:messages.olderPosts'>
+    <data:messages.olderPosts/>
+  </a>
+</b:includable>
+    <b:includable id='otherSharingButton'>
+  <span class='sharing-platform-button sharing-element-other' expr:aria-label='data:messages.shareToOtherApps.escaped' expr:data-url='data:originalUrl' expr:title='data:messages.shareToOtherApps.escaped' role='menuitem' tabindex='-1'>
+    <b:with value='{key: &quot;sharingOther&quot;}' var='platform'>
+      <b:include name='sharingPlatformIcon'/>
+    </b:with>
+    <span class='platform-sharing-text'><data:messages.shareOtherApps.escaped/></span>
+  </span>
+</b:includable>
+    <b:includable id='platformShare'>
+  <a expr:class='&quot;goog-inline-block sharing-&quot; + data:platform.key' expr:data-url='data:originalUrl' expr:href='data:shareUrl + &quot;&amp;target=&quot; + data:platform.target' expr:onclick='data:onclick ? data:onclick : &quot;&quot;' expr:title='data:platform.shareMessage' target='_blank'>
+    <span class='share-button-link-text'>
+      <data:platform.shareMessage/>
+    </span>
+  </a>
+</b:includable>
+    <b:includable id='post' var='post'>
+  <div class='post'>
+    <b:include data='post' name='postMeta'/>
+    <b:include data='post' name='postTitle'/>
+    <b:include name='headerByline'/>
+    <b:if cond='data:view.isSingleItem'>
+      <b:include data='post' name='postBody'/>
+    <b:else/>
+      <b:include data='post' name='postBodySnippet'/>
+      <b:include data='post' name='postJumpLink'/>
+    </b:if>
+    <b:include data='post' name='postFooter'/>
+  </div>
+</b:includable>
+    <b:includable id='postAuthor'>
+  <span class='byline post-author vcard'>
+    <span class='post-author-label'>
+      <data:byline.label/>
+    </span>
+    <span class='fn'>
+      <b:if cond='data:post.author.profileUrl'>
+        <meta expr:content='data:post.author.profileUrl'/>
+        <a class='g-profile' expr:href='data:post.author.profileUrl' rel='author' title='author profile'>
+          <span><data:post.author.name/></span>
+        </a>
+      <b:else/>
+        <span><data:post.author.name/></span>
+      </b:if>
+    </span>
+  </span>
+</b:includable>
+    <b:includable id='postBody' var='post'>
+  <!-- If metaDescription is empty, use the post body as the schema.org description too, for G+/FB snippeting. -->
+  <div class='post-body entry-content float-container' expr:id='&quot;post-body-&quot; + data:post.id'>
+    <data:post.body/>
+  </div>
+</b:includable>
+    <b:includable id='postBodySnippet' var='post'>
+  <b:include data='post' name='postBody'/>
+</b:includable>
+    <b:includable id='postCommentsAndAd' var='post'>
+  <article class='post-outer-container'>
+    <!-- Post title and body -->
+    <div class='post-outer'>
+      <b:include data='post' name='post'/>
+    </div>
+
+    <!-- Comments -->
+    <b:include cond='data:view.isSingleItem' data='post' name='commentPicker'/>
+
+    <!-- Show ad inside post container, after comments, if single item. -->
+    <b:include cond='data:view.isSingleItem and data:post.includeAd' data='post' name='inlineAd'/>
+  </article>
+
+  <!-- Show ad outside post container (between posts) for feed pages. -->
+  <b:include cond='data:view.isMultipleItems and data:post.includeAd' data='post' name='inlineAd'/>
+</b:includable>
+    <b:includable id='postCommentsLink'>
+  <b:if cond='data:view.isMultipleItems'>
+    <span class='byline post-comment-link container'>
+      <b:include cond='data:post.commentSource != 1' name='commentsLink'/>
+    </span>
+  </b:if>
+</b:includable>
+    <b:includable id='postFooter' var='post'>
+  <div class='post-footer'>
+    <b:include name='footerBylines'/>
+    <b:include data='post' name='postFooterAuthorProfile'/>
+  </div>
+</b:includable>
+    <b:includable id='postFooterAuthorProfile' var='post'>
+  <b:if cond='data:post.author.aboutMe and data:view.isPost'>
+    <div class='author-profile'>
+      <b:if cond='data:post.author.authorPhoto.url'>
+        <img class='author-image' expr:src='data:post.author.authorPhoto.url' width='50px'/>
+        <div class='author-about'>
+          <b:include data='post' name='aboutPostAuthor'/>
+        </div>
+      <b:else/>
+        <b:include data='post' name='aboutPostAuthor'/>
+      </b:if>
+    </div>
+  </b:if>
+</b:includable>
+    <b:includable id='postHeader' var='post'>
+  <b:include name='headerByline'/>
+</b:includable>
+    <b:includable id='postJumpLink' var='post'>
+  <div class='jump-link flat-button'>
+    <a expr:href='data:post.url fragment &quot;more&quot;' expr:title='data:post.title'>
+      <b:eval expr='data:blog.jumpLinkMessage'/>
+    </a>
+  </div>
+</b:includable>
+    <b:includable id='postLabels'>
+  <span class='byline post-labels'>
+    <span class='byline-label'><data:byline.label/></span>
+    <b:loop index='i' values='data:post.labels' var='label'>
+      <a expr:href='data:label.url' rel='tag'>
+        <data:label.name/>
+      </a>
+    </b:loop>
+  </span>
+</b:includable>
+    <b:includable id='postLocation'>
+  <span class='byline post-location'>
+    <data:byline.label/>
+    <a expr:href='data:post.location.mapsUrl' target='_blank'><data:post.location.name/></a>
+  </span>
+</b:includable>
+    <b:includable id='postMeta' var='post'>
+  <b:include data='post' name='postMetadataJSON'/>
+</b:includable>
+    <b:includable id='postMetadataJSONImage'>
+  &quot;image&quot;: {
+    &quot;@type&quot;: &quot;ImageObject&quot;,
+    <b:if cond='data:post.featuredImage.isResizable'>
+    &quot;url&quot;: &quot;<b:eval expr='resizeImage(data:post.featuredImage, 1200, &quot;1200:630&quot;)'/>&quot;,
+    &quot;height&quot;: 630,
+    &quot;width&quot;: 1200
+    <b:else/>
+    &quot;url&quot;: &quot;https://blogger.googleusercontent.com/img/b/U2hvZWJveA/AVvXsEgfMvYAhAbdHksiBA24JKmb2Tav6K0GviwztID3Cq4VpV96HaJfy0viIu8z1SSw_G9n5FQHZWSRao61M3e58ImahqBtr7LiOUS6m_w59IvDYwjmMcbq3fKW4JSbacqkbxTo8B90dWp0Cese92xfLMPe_tg11g/w1200/&quot;,
+    &quot;height&quot;: 348,
+    &quot;width&quot;: 1200
+    </b:if>
+  },
+</b:includable>
+    <b:includable id='postMetadataJSONPublisher'>
+ &quot;publisher&quot;: {
+    &quot;@type&quot;: &quot;Organization&quot;,
+    &quot;name&quot;: &quot;Blogger&quot;,
+    &quot;logo&quot;: {
+      &quot;@type&quot;: &quot;ImageObject&quot;,
+      &quot;url&quot;: &quot;https://blogger.googleusercontent.com/img/b/U2hvZWJveA/AVvXsEgfMvYAhAbdHksiBA24JKmb2Tav6K0GviwztID3Cq4VpV96HaJfy0viIu8z1SSw_G9n5FQHZWSRao61M3e58ImahqBtr7LiOUS6m_w59IvDYwjmMcbq3fKW4JSbacqkbxTo8B90dWp0Cese92xfLMPe_tg11g/h60/&quot;,
+      &quot;width&quot;: 206,
+      &quot;height&quot;: 60
+    }
+  },
+</b:includable>
+    <b:includable id='postPagination'>
+  <div class='blog-pager container' id='blog-pager'>
+    <b:include cond='data:newerPageUrl' name='previousPageLink'/>
+    <b:include cond='data:olderPageUrl' name='nextPageLink'/>
+    <b:include cond='data:view.url != data:blog.homepageUrl' name='homePageLink'/>
+  </div>
+</b:includable>
+    <b:includable id='postReactions'>
+  <!-- Reaction feature no longer available. The includable is retained for backwards-compatibility. -->
+</b:includable>
+    <b:includable id='postShareButtons'>
+  <div class='byline post-share-buttons goog-inline-block'>
+    <b:with value='data:sharingId ?: ((data:widget.instanceId ?: &quot;sharing&quot;) + &quot;-&quot; + (data:regionName ?: &quot;byline&quot;) + &quot;-&quot; + data:post.id)' var='sharingId'>
+      <!-- Note: 'sharingButtons' includable is from the default Sharing widget markup. -->
+      <b:include data='{                                                sharingId: data:sharingId,                                                originalUrl: data:post.url,                                                platforms: data:this.sharing.platforms,                                                shareUrl: data:post.shareUrl,                                                shareTitle: data:post.title,                                              }' name='sharingButtons'/>
+    </b:with>
+  </div>
+</b:includable>
+    <b:includable id='postTimestamp'>
+  <span class='byline post-timestamp'>
+    <data:byline.label/>
+    <b:if cond='data:post.url'>
+      <meta expr:content='data:post.url.canonical'/>
+      <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'>
+        <time class='published' expr:datetime='data:post.date.iso8601' expr:title='data:post.date.iso8601'>
+          <data:post.date/>
+        </time>
+      </a>
+    </b:if>
+  </span>
+</b:includable>
+    <b:includable id='postTitle' var='post'>
+  <a expr:name='data:post.id'/>
+  <b:if cond='data:post.title != &quot;&quot;'>
+    <h3 class='post-title entry-title'>
+      <b:if cond='data:post.link or (data:post.url and data:view.url != data:post.url)'>
+        <a expr:href='data:post.link ?: data:post.url'><data:post.title/></a>
+      <b:else/>
+        <data:post.title/>
+      </b:if>
+    </h3>
+  </b:if>
+</b:includable>
+    <b:includable id='previousPageLink'>
+  <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:messages.newerPosts'>
+    <data:messages.newerPosts/>
+  </a>
+</b:includable>
+    <b:includable id='sharingButton'>
+  <span expr:aria-label='data:platform.shareMessage' expr:class='&quot;sharing-platform-button sharing-element-&quot; + data:platform.key' expr:data-href='data:shareUrl + &quot;&amp;target=&quot; + data:platform.target' expr:data-url='data:originalUrl' expr:title='data:platform.shareMessage' role='menuitem' tabindex='-1'>
+    <b:include name='sharingPlatformIcon'/>
+    <span class='platform-sharing-text'><data:platform.name/></span>
+  </span>
+</b:includable>
+    <b:includable id='sharingButtonContent'>
+  <div class='flat-icon-button ripple'>
+    <b:include name='shareIcon'/>
+  </div>
+</b:includable>
+    <b:includable id='sharingButtons'>
+  <div class='sharing' expr:aria-owns='&quot;sharing-popup-&quot; + data:sharingId' expr:data-title='data:shareTitle'>
+    <button class='sharing-button touch-icon-button' expr:aria-controls='&quot;sharing-popup-&quot; + data:sharingId' expr:aria-label='data:messages.share.escaped' expr:id='&quot;sharing-button-&quot; + data:sharingId' role='button'>
+      <b:include name='sharingButtonContent'/>
+    </button>
+    <b:include name='sharingButtonsMenu'/>
+  </div>
+</b:includable>
+    <b:includable id='sharingButtonsMenu'>
+  <div class='share-buttons-container'>
+    <ul aria-hidden='true' class='share-buttons hidden' expr:aria-label='data:messages.share.escaped' expr:id='&quot;sharing-popup-&quot; + data:sharingId' role='menu'>
+      <b:loop values='(data:platforms ?: data:blog.sharing.platforms) filter (p =&gt; p.key not in {&quot;blogThis&quot;})' var='platform'>
+        <li>
+          <b:include name='sharingButton'/>
+        </li>
+      </b:loop>
+      <li aria-hidden='true' class='hidden'>
+        <b:include name='otherSharingButton'/>
+      </li>
+    </ul>
+  </div>
+</b:includable>
+    <b:includable id='sharingPlatformIcon'>
+  <b:include data='{ iconClass: (&quot;touch-icon sharing-&quot; + data:platform.key) }' expr:name='data:platform.key + &quot;Icon&quot;'/>
+</b:includable>
+    <b:includable id='threadedCommentForm' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <h4 id='comment-post-message'><data:messages.postAComment/></h4>
+    <b:if cond='data:this.messages.blogComment != &quot;&quot;'>
+      <p><data:this.messages.blogComment/></p>
+    </b:if>
+    <b:include data='post' name='commentFormIframeSrc'/>
+    <iframe allowtransparency='allowtransparency' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight ?: &quot;90px&quot;' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+    </script>
+  </div>
+</b:includable>
+    <b:includable id='threadedCommentJs' var='post'>
+  <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
+  <b:template-script inline='true' name='threaded_comments'/>
+  <script type='text/javascript'>
+    blogger.widgets.blog.initThreadedComments(
+        <data:post.commentJso/>,
+        <data:post.commentMsgs/>,
+        <data:post.commentConfig/>);
+  </script>
+</b:includable>
+    <b:includable id='threadedComments' var='post'>
+  <section class='comments threaded' expr:data-embed='data:post.embedCommentForm' expr:data-num-comments='data:post.numberOfComments' id='comments'>
+    <a name='comments'/>
+
+    <b:include name='commentsTitle'/>
+
+    <div class='comments-content'>
+      <b:if cond='data:post.embedCommentForm'>
+        <b:include data='post' name='threadedCommentJs'/>
+      </b:if>
+      <div id='comment-holder'>
+         <data:post.commentHtml/>
+      </div>
+    </div>
+
+    <p class='comment-footer'>
+      <b:if cond='data:post.allowNewComments'>
+        <b:include data='post' name='threadedCommentForm'/>
+      <b:else/>
+        <data:post.noNewCommentsText/>
+      </b:if>
+      <b:if cond='data:post.showManageComments'>
+        <b:include data='post' name='manageComments'/>
+      </b:if>
+    </p>
+
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='allowtransparency' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+  </section>
+</b:includable>
+    <b:includable id='tooltipCss'>
+  <!-- LINT.IfChange -->
+  <style>
+    .post-body a.b-tooltip-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .post-body a.b-tooltip-container .b-tooltip {
+      display: block !important;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translate(-20%, 1px);
+      visibility: hidden;
+      opacity: 0;
+      z-index: 1;
+      transition: opacity 0.2s ease-in-out;
+    }
+
+    .post-body a.b-tooltip-container .b-tooltip iframe {
+      width: 200px;
+      height: 198px;
+      max-width: none;
+      border: none;
+      border-radius: 20px;
+      box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (hover: hover) {
+      .post-body a.b-tooltip-container:hover .b-tooltip {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  </style>
+  <!-- LINT.ThenChange(//depot/google3/java/com/google/blogger/b2/layouts/widgets/v2-style.css) -->
+</b:includable>
+  </b:widget>
+</b:section>
+</main>
+
+<!-- FOOTER -->
+<footer class='footer' id='contact'>
+  <div class='container'>
+
+    <div class='footer-grid'>
+
+      <div>
+        <h3>SHREE SONAGARA AUTO PARTS</h3>
+        <p>
+          2 Wheeler Bike Spare Parts ke liye
+          aap humse WhatsApp ya phone par order kar sakte hain.
+        </p>
+        <p>
+          Katargam, Surat, Gujarat
+        </p>
+      </div>
+
+      <div>
+        <h3>Bike Brands</h3>
+       <p><a href='?brand=Hero'>Hero</a></p>
+<p><a href='?brand=Honda'>Honda</a></p>
+<p><a href='?brand=TVS'>TVS</a></p>
+        <p><a href='?brand=Bajaj'>Bajaj</a></p>
+        
+      </div>
+
+      <div>
+        <h3>Categories</h3>
+      <p><a href='?cat=brake'>Brake Parts</a></p>
+<p><a href='?cat=clutch'>Clutch Parts</a></p>
+<p><a href='?cat=cable'>Cable</a></p>
+        <p><a href='?cat=electrical'>Electrical</a></p>
+        
+      </div>
+
+      <div>
+        <h3>Contact Us</h3>
+        <p>Katargam, Surat</p>
+        <p>
+          <a href='tel:+918460650603'>&#9742; +918460650603</a>
+        </p>
+        <p>
+          <a href='https://wa.me/918460650603' target='_blank'>
+            WhatsApp Order
+          </a>
+        </p>
+      </div>
+
+    </div>
+
+    <div class='copyright'>
+      &#169; 2026 SHREE SONAGARA AUTO PARTS. All Rights Reserved.
+    </div>
+
+  </div>
+</footer>
+
+<script type='text/javascript'>
+//<![CDATA[
+
+const SHEET_ID = '1Pd2M3MEXxBo_l7RIUoWtX7QD3OsMwk64RYlA5lzv0ug';
+const SHEET_NAME = 'Sheet1';
+
+
+function toggleSearch() {
+  var panel = document.getElementById('searchPanel');
+  if (panel) {
+    panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
+  }
+}
+var cartList = [];
+
+function addToCart(name, brand, model) {
+  var existingItem = cartList.find(function(item) {
+    return item.name === name;
+  });
+
+  if (existingItem) {
+    existingItem.qty += 1;
+  } else {
+    cartList.push({ name: name, brand: brand || '', model: model || '', qty: 1 });
+  }
+
+  updateCartCount();
+  alert(name + ' added to cart!');
+}
+
+function updateCartCount() {
+  var countEl = document.getElementById('cartCount');
+  if (countEl) {
+    var totalCount = cartList.reduce(function(sum, item) {
+      return sum + item.qty;
+    }, 0);
+    countEl.innerText = totalCount;
+  }
+}
+
+function openCart() {
+  var modal = document.getElementById('cartModal');
+  var listContainer = document.getElementById('cartItemsList');
+  
+  if (!modal || !listContainer) return;
+
+  if (cartList.length === 0) {
+    listContainer.innerHTML = '<p style="text-align:center; color:#777; margin-top:30px;">Your cart is empty!</p>';
+  } else {
+    var html = '<ul style="list-style:none; padding:0; margin:0;">';
+    cartList.forEach(function(item, index) {
+      html += '<li style="display:flex; justify-content:space-between; align-items:center; padding:12px 0; border-bottom:1px solid #eee;">' +
+                '<div style="flex:1;">' +
+                  '<strong style="font-size:14px; display:block;">' + item.name + '</strong>' +
+                '</div>' +
+                '<div style="display:flex; align-items:center; gap:8px;">' +
+                  '<button onclick="changeQty(' + index + ', -1)" style="background:#f0f0f0; border:1px solid #ccc; width:28px; height:28px; border-radius:4px; font-weight:bold; cursor:pointer;">-</button>' +
+                  '<span style="font-weight:bold; width:20px; text-align:center;">' + item.qty + '</span>' +
+                  '<button onclick="changeQty(' + index + ', 1)" style="background:#f0f0f0; border:1px solid #ccc; width:28px; height:28px; border-radius:4px; font-weight:bold; cursor:pointer;">+</button>' +
+                  '<button onclick="removeFromCart(' + index + ')" style="color:red; background:none; border:none; cursor:pointer; font-size:16px; margin-left:5px;">🗑️</button>' +
+                '</div>' +
+              '</li>';
+    });
+    html += '</ul>';
+    listContainer.innerHTML = html;
+  }
+
+  modal.style.display = 'flex';
+}
+
+function changeQty(index, change) {
+  cartList[index].qty += change;
+  
+  if (cartList[index].qty <= 0) {
+    cartList.splice(index, 1);
+  }
+  
+  updateCartCount();
+  openCart();
+}
+
+function closeCart() {
+  var modal = document.getElementById('cartModal');
+  if (modal) modal.style.display = 'none';
+}
+
+function removeFromCart(index) {
+  cartList.splice(index, 1);
+  updateCartCount();
+  openCart();
+}
+
+function sendWhatsAppOrder() {
+  if (cartList.length === 0) {
+    alert('आपका कार्ट खाली है! पहले उत्पाद जोड़ें।');
+    return;
+  }
+
+  var message = "Hello SHREE SONAGARA AUTO PARTS,\nI want to order the following items:\n\n";
+  cartList.forEach(function(item, index) {
+    message += (index + 1) + ". " + item.name + " (Qty: " + item.qty + ")\n";
+  });
+
+  var whatsappNumber = "918460650603";
+  var whatsappUrl = "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(message);
+  
+  window.open(whatsappUrl, '_blank');
+}
+
+
+
+function searchProducts(){
+  var input = document.getElementById('siteSearch');
+  if(!input) return;
+
+  var filter = input.value.toLowerCase().trim();
+  var products = document.querySelectorAll('.product');
+
+  products.forEach(function(product){
+    var text = product.textContent.toLowerCase();
+    if(filter === '' || text.indexOf(filter) !== -1){
+      product.style.display = '';
+    } else {
+      product.style.display = 'none';
+    }
+  });
+}
+
+function filterModel(model){
+  var products = document.querySelectorAll('.product');
+  products.forEach(function(product){
+    if(model === 'all'){
+      product.style.display = '';
+    } else if(product.getAttribute('data-model') === model){
+      product.style.display = '';
+    } else {
+      product.style.display = 'none';
+    }
+  });
+}
+async function loadProductsFromSheet() {
+  const grid = document.getElementById('productGrid');
+  if (!grid) return;
+
+  // 1. URL से चुनी हुई कैटेगरी लें (?cat=brake)
+  const urlParams = new URLSearchParams(window.location.search);
+  const selectedCategory = urlParams.get('cat');
+
+  // 2. Google Sheet का URL बनाएं
+  const url = 'https://docs.google.com/spreadsheets/d/' + SHEET_ID + '/gviz/tq?tqx=out:json&sheet=' + encodeURIComponent(SHEET_NAME);
+
+  try {
+    const response = await fetch(url);
+    if (!response.ok) throw new Error('Google Sheet response error: ' + response.status);
+
+    const text = await response.text();
+    const start = text.indexOf('{');
+    const end = text.lastIndexOf('}');
+    if (start === -1 || end === -1) throw new Error('Invalid Google Sheet response');
+
+    const json = JSON.parse(text.substring(start, end + 1));
+    if (!json.table || !json.table.rows) throw new Error('No table data found in Sheet');
+
+    const rows = json.table.rows;
+    grid.innerHTML = '';
+
+    rows.forEach(function(row) {
+      const c = row.c || [];
+      const productName = c[0] && c[0].v != null ? c[0].v : ''; // Col A (Name)
+      const brand       = c[1] && c[1].v != null ? c[1].v : ''; // Col B (Brand)
+      const category    = c[2] && c[2].v != null ? c[2].v : ''; // Col C (Category)
+      const model       = c[3] && c[3].v != null ? c[3].v : ''; // Col D (Model)
+      const price       = c[4] && c[4].v != null ? c[4].v : 'Price On Request'; // Col E (Price)
+      const image       = c[5] && c[5].v != null ? c[5].v : 'https://via.placeholder.com/500x400?text=Auto+Parts'; // Col F (Image)
+
+      if (!productName) return;
+
+      // 3. कैटेगरी फ़िल्टर चेक करें
+      if (selectedCategory && category.toString().trim().toLowerCase() !== selectedCategory.trim().toLowerCase()) {
+        return;
+      }
+
+      const product = document.createElement('div');
+      product.className = 'product';
+      product.dataset.brand = brand;
+      product.dataset.category = category;
+      product.dataset.model = model;
+
+      const message = 'I want ' + productName + (model ? ' for ' + model : '');
+
+      // Single quotes एरर से बचने के लिए नाम साफ़ करें
+      const safeName = productName.replace(/'/g, "\\'");
+      const safeBrand = brand.replace(/'/g, "\\'");
+      const safeModel = model.replace(/'/g, "\\'");
+
+      // 4. Product HTML तैयार करें
+      product.innerHTML = 
+        '<div class="product-img">' +
+          '<img src="' + image + '" alt="' + productName + '" loading="lazy">' +
+        '</div>' +
+        '<div class="product-info">' +
+          '<div class="product-brand">' + brand + '</div>' +
+          '<div class="product-name">' + productName + '</div>' +
+          '<div class="product-model">' + model + '</div>' +
+          '<div class="product-price">₹' + price + '</div>' +
+          '<button class="add-cart-btn" type="button" onclick="addToCart(\'' + safeName + '\', \'' + safeBrand + '\', \'' + safeModel + '\')">Add to Cart</button>' +
+          '<a class="order-btn" href="https://wa.me/918460650603?text=' + encodeURIComponent(message) + '" target="_blank">WhatsApp Order</a>' +
+        '</div>';
+
+      grid.appendChild(product);
+    });
+
+  } catch (error) {
+    console.error('Sheet loading error:', error);
+  }
+}
+document.addEventListener('DOMContentLoaded', loadProductsFromSheet);
+loadProductsFromSheet();
+
+document.addEventListener('DOMContentLoaded', function(){
+  // Floating WhatsApp Button
+  var wa = document.createElement('a');
+  wa.href = 'https://wa.me/918460650603';
+  wa.target = '_blank';
+  wa.innerHTML = '💬';
+  wa.style.position = 'fixed';
+  wa.style.right = '18px';
+  wa.style.bottom = '70px';
+  wa.style.width = '54px';
+  wa.style.height = '54px';
+  wa.style.background = '#168c42';
+  wa.style.color = '#fff';
+  wa.style.borderRadius = '50%';
+  wa.style.display = 'flex';
+  wa.style.alignItems = 'center';
+  wa.style.justifyContent = 'center';
+  wa.style.fontSize = '25px';
+  wa.style.textDecoration = 'none';
+  wa.style.zIndex = '9999';
+  wa.style.boxShadow = '0 5px 20px rgba(0,0,0,.25)';
+  document.body.appendChild(wa);
+
+  // Fetch product data from Google Sheet
+  loadProductsFromSheet();
+});
+
+  document.addEventListener('DOMContentLoaded', loadProductsFromSheet);
+loadProductsFromSheet();
+  //]]>
+</script>
+  <!-- CART MODAL PAGE -->
+<div id='cartModal' style='display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); z-index:9999; justify-content:center; align-items:center;'>
+  <div style='background:#fff; width:90%; max-width:450px; padding:20px; border-radius:12px; box-shadow:0 5px 15px rgba(0,0,0,0.3); max-height:80vh; display:flex; flex-direction:column;'>
+    
+    <!-- Modal Header -->
+    <div style='display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #ddd; padding-bottom:10px; margin-bottom:15px;'>
+      <h3 style='margin:0; font-size:18px;'>🛒 Your Shopping Cart</h3>
+      <button onclick='closeCart()' style='background:none; border:none; font-size:22px; cursor:pointer; font-weight:bold;'>&#215;</button>
+    </div>
+
+    <!-- Modal Body (Product List) -->
+    <div id='cartItemsList' style='flex:1; overflow-y:auto; margin-bottom:15px; font-size:14px; min-height:100px;'>
+      <!-- JavaScript will list added items here -->
+    </div>
+
+    <!-- Modal Footer (WhatsApp Button) -->
+    <div style='border-top:1px solid #ddd; padding-top:15px;'>
+      <button onclick='sendWhatsAppOrder()' style='width:100%; background:#168c42; color:#fff; border:none; padding:12px; border-radius:8px; font-size:15px; font-weight:bold; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:8px;'>
+        📲 Order on WhatsApp
+      </button>
+    </div>
+
+  </div>
+  </div>
+  <!-- Bottom Navigation Bar -->
+<div class='bottom-nav'>
+  <a class='nav-item' href='#'>
+    <span class='nav-icon'>🏠</span>
+    <span class='nav-label'>HOME</span>
+  </a>
+  <!-- Categories बटन म&#2375;&#2306; ल&#2367;&#2306;क ज&#2379;ड़न&#2375; क&#2375; ल&#2367;ए -->
+<a class='nav-item' href='https://shreesonagaraauto2.blogspot.com/p/brake-parts.html'>
+  <span class='nav-icon'>🔲</span>
+  <span class='nav-label'>CATEGORIES</span>
+  </a>
+  
+  <a class='nav-item' href='#products'>
+    <span class='nav-icon'>🏍&#65039;</span>
+    <span class='nav-label'>MODEL</span>
+  </a>
+  <a class='nav-item' href='#products'>
+    <span class='nav-icon'>🛒</span>
+    <span class='nav-label'>CART</span>
+  </a>
+  </div>
+  
+</body>
+</html>
